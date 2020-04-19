@@ -1,7 +1,7 @@
 # feature_importance
 An exploration of various feature importance and selection techniques.
 
-Feature importances are useful tools to interpret machine learning models. Here, we explore some of the widely used techniques like:
+Feature importances are useful tools to interpret machine learning models. Here, I explore some of the widely used techniques like:
 
 1. Spearman's rank correlation coefficient
 2. Principle Component Analysis
@@ -10,7 +10,7 @@ Feature importances are useful tools to interpret machine learning models. Here,
 5. Drop Column Importance
 6. Shap Importance
 
-We then initiate a discussion on the efficiency of these techniques and explore methods to enhance our understanding.
+I have also explored methods that help compare performance of these techniques and develop a better understanding of feature importance in general:
 
 1. Comparing feature importance techniques - Top N feature loss
 2. Automatic Feature Selection
