@@ -1,7 +1,7 @@
-# feature_importance
-An exploration of various feature importance and selection techniques.
+# Feature Importance and Selection Techniques
+This repo explores various feature importance and selection techniques.
 
-Feature importances are useful tools to interpret machine learning models. Here, I explore some of the widely used techniques like:
+Feature importance is widely used to interpret machine learning models. Here, I explore commonly used techniques like:
 
 1. Spearman's rank correlation coefficient
 2. Principle Component Analysis
@@ -10,12 +10,12 @@ Feature importances are useful tools to interpret machine learning models. Here,
 5. Drop Column Importance
 6. Shap Importance
 
-I have also explored methods that help compare performance of these techniques and develop a better understanding of feature importance in general:
+Next, I train models using 1,2,3.. most important feature(s), as predicted by each of above techniques, and compare losses to identify which technique is more efficient. I have also implemented a simple Automatic Feature Selection technique which iteratively finds the best (and simpler) model.
 
-1. Comparing feature importance techniques - Top N feature loss
-2. Automatic Feature Selection
-3. Variance in Feature Importances
-4. Empirical P-Values
+Finally, I discuss two statistical technqiues that give a deeper understanding of the generated scores:
+
+1. Variance in Feature Importances
+2. Empirical P-Values
 
 Thanks to Prof. [Terence Parr](https://github.com/parrt) for his guidance and support in this school project.
 
